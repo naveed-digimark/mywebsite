@@ -49,15 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A HUNGRY FULL STACK BLOCKCHAIN DEVELOPER WHO WANTS TO EXPLORE DECENTERLIZED WORLD MORE & MORE.",
+  subTitle:
+    "A HUNGRY FULL STACK BLOCKCHAIN DEVELOPER WHO WANTS TO EXPLORE DECENTERLIZED WORLD MORE & MORE.",
   skills: [
     emoji(
       "⚡ Design, Develop & maintain highly scalable, secure and optimized blockchain projects"
     ),
     emoji("⚡ Write secure & gas efficient Solidity and Rust smart contracts."),
-    emoji(
-      "⚡ Integrate smart contracts with DApps using Web3js and Etherjs."
-    )
+    emoji("⚡ Integrate smart contracts with DApps using Web3js and Etherjs.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -130,8 +129,8 @@ const educationInfo = {
       logo: require("./assets/images/sindhUni.jpg"),
       subHeader: "Bachelors in Information Technology",
       duration: "January 2017 - December 2020",
-      desc: "Earned a Bachelor's degree in IT, equipping myself with knowledge in information technology..",
-    },
+      desc: "Earned a Bachelor's degree in IT, equipping myself with knowledge in information technology.."
+    }
     // {
     //   schoolName: "Stanford University",
     //   logo: require("./assets/images/stanfordLogo.png"),
@@ -157,11 +156,11 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack:"Blockchain",
+      Stack: "Blockchain",
       progressPercentage: "90%"
     },
     {
-      Stack:"Ethereum",
+      Stack: "Ethereum",
       progressPercentage: "90%"
     },
     {
@@ -230,7 +229,8 @@ const bigProjects = {
     {
       image: require("./assets/images/hyperleague.jpg"),
       projectName: "HyperLeague",
-      projectDesc: "The Decentralized AI-Powered Hover Racing Metaverse Hyper League is an advanced AI-powered P2E RPG that unites the power of AI, blockchain, and Metaverse technology, enabling the community to socialize and earn as well by competing and winning races within the Hyperverse. A gaming model of Hyper League is built on blockchain, making it more reliable and secure, ensuring true ownership of in-game assets.",
+      projectDesc:
+        "The Decentralized AI-Powered Hover Racing Metaverse Hyper League is an advanced AI-powered P2E RPG that unites the power of AI, blockchain, and Metaverse technology, enabling the community to socialize and earn as well by competing and winning races within the Hyperverse. A gaming model of Hyper League is built on blockchain, making it more reliable and secure, ensuring true ownership of in-game assets.",
       footerLink: [
         {
           name: "Visit Website",
@@ -239,17 +239,18 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    // {
-    //   image: require("./assets/images/nextuLogo.webp"),
-    //   projectName: "Nextu",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: "http://nextu.se/"
-    //     }
-    //   ]
-    // }
+    {
+      // image: require(""),
+      projectName: "CopyyyIt",
+      projectDesc:
+        "A crypto copy trading platform that helps traders to earn by following the experts.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://copyyyit.portfolio-pro.net/"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +325,7 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      title:"Coming soon!"
+      title: "Coming soon!"
     }
     // {
     //   url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
